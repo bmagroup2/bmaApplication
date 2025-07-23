@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bmasec2.bmaapplication.LoginViewController">
+   <children>
+      <Label layoutX="170.0" layoutY="39.0" text="Welcome to BMA Portal">
+         <font>
+            <Font name="System Bold" size="23.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="159.0" fitWidth="154.0" layoutX="23.0" layoutY="125.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../images/Bangladesh_Military_Academy_Monogram.svg.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="305.0" layoutY="100.0" text="Login Page" textFill="#252424">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <TextField fx:id="loginUsernameTextfield" alignment="CENTER" layoutX="391.0" layoutY="155.0" prefHeight="23.0" prefWidth="164.0" promptText="e.g user1" />
+      <ComboBox fx:id="loginUserRoleComboBox" layoutX="391.0" layoutY="244.0" prefHeight="23.0" prefWidth="164.0" promptText="select" />
+      <PasswordField fx:id="loginPasswordTextField" alignment="CENTER" layoutX="391.0" layoutY="202.0" promptText="e.g 12345678" />
+      <Label layoutX="260.0" layoutY="156.0" prefHeight="21.0" prefWidth="120.0" text="Username:">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="260.0" layoutY="203.0" prefHeight="21.0" prefWidth="120.0" text="Password:">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="260.0" layoutY="245.0" prefHeight="21.0" prefWidth="120.0" text="Role:">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Button alignment="CENTER" contentDisplay="CENTER" layoutX="292.0" layoutY="297.0" mnemonicParsing="false" onAction="#signInButtonOnAction" prefHeight="36.0" prefWidth="139.0" style="-fx-background-radius: 20; -fx-background-color: green;" text="Sign In" textFill="WHITE" />
+   </children>
+</AnchorPane>
