@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="625.0" prefWidth="1200.0" style="visibility: true;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bmasec2.bmaapplication.NavMenuViewController">
+   <children>
+      <VBox layoutY="147.0" prefHeight="554.0" prefWidth="273.0">
+         <children>
+            <ScrollPane fitToWidth="true" hbarPolicy="NEVER" prefHeight="554.0" prefWidth="307.0">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="842.0" prefWidth="243.0">
+                     <children>
+                        <Button layoutX="11.0" layoutY="24.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="239.0" style="visibility: true;" text="Dashboard">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Button>
+                        <Button layoutX="10.0" layoutY="95.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="239.0" style="visibility: false;" text="Cadet Management">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Button>
+                        <Button layoutX="10.0" layoutY="175.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="239.0" style="visibility: false;" text=" User Management">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Button>
+                        <Button layoutX="10.0" layoutY="249.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="239.0" style="visibility: false;" text=" User Management">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Button>
+                        <Button layoutX="10.0" layoutY="320.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="239.0" style="visibility: false;" text="Reports">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Button>
+                        <Button layoutX="10.0" layoutY="395.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="239.0" style="visibility: false;" text="System Settings">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Button>
+                        <Button layoutX="10.0" layoutY="465.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="239.0" style="visibility: false;" text="Audit Logs">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Button>
+                        <Button layoutX="10.0" layoutY="534.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="239.0" style="visibility: false;" text="Profile">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Button>
+                        <Button layoutX="8.0" layoutY="653.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="239.0" style="-fx-background-color: red;" text="Sign Out" textFill="WHITE">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Button>
+                        <Button layoutX="10.0" layoutY="105.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="239.0" style="visibility: true;" text="Unit Reports">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Button>
+                        <Button layoutX="10.0" layoutY="185.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="239.0" style="visibility: true;" text="Final Evaluation">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Button>
+                        <Button layoutX="10.0" layoutY="259.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="239.0" style="visibility: true;" text="Instructor Assignment">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Button>
+                        <Button layoutX="10.0" layoutY="330.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="239.0" style="visibility: true;" text="Cadet Rankings">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Button>
+                        <Button layoutX="10.0" layoutY="405.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="239.0" style="visibility: true;" text="Announcement Approval">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Button>
+                        <Button layoutX="10.0" layoutY="475.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="239.0" style="visibility: true;" text="Mission Events">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Button>
+                        <Button layoutX="10.0" layoutY="544.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="239.0" style="visibility: true;" text="Instructor Performance">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </AnchorPane>
+              </content>
+            </ScrollPane>
+         </children>
+      </VBox>
+      <ImageView fitHeight="90.0" fitWidth="102.0" layoutX="95.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../images/Bangladesh_Military_Academy_Monogram.svg.png" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="6.0" layoutY="105.0" prefHeight="35.0" prefWidth="264.0" text="Welcome">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <HBox layoutX="197.0" prefHeight="146.0" prefWidth="998.0">
+         <children>
+            <AnchorPane prefHeight="100.0" prefWidth="1001.0">
+               <children>
+                  <Label layoutX="13.0" layoutY="34.0" prefHeight="42.0" prefWidth="469.0" text="Bangladesh Military Academy">
+                     <font>
+                        <Font name="System Bold" size="30.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="454.0" layoutY="43.0" text="&gt;">
+                     <font>
+                        <Font size="23.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="483.0" layoutY="45.0" prefHeight="22.0" prefWidth="311.0" text="Page Name">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="758.0" layoutY="43.0" prefHeight="25.0" prefWidth="233.0" text="Shamsad Shanin">
+                     <font>
+                        <Font size="21.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+         </children>
+      </HBox>
+      <ScrollPane layoutX="273.0" layoutY="147.0" prefHeight="548.0" prefWidth="927.0">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="547.0" prefWidth="920.0" />
+        </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>
