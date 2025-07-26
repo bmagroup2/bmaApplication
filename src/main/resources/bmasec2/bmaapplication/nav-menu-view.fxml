@@ -10,7 +10,6 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane prefHeight="625.0" prefWidth="1200.0" style="visibility: true;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bmasec2.bmaapplication.NavMenuViewController">
    <children>
       <VBox layoutY="147.0" prefHeight="554.0" prefWidth="273.0">
@@ -19,7 +18,7 @@
               <content>
                 <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="842.0" prefWidth="243.0">
                      <children>
-                        <Button layoutX="11.0" layoutY="24.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="239.0" style="visibility: true;" text="Dashboard">
+                        <Button layoutX="11.0" layoutY="24.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="239.0" style="visibility: false;" text="Dashboard">
                            <font>
                               <Font size="18.0" />
                            </font>
@@ -59,42 +58,88 @@
                               <Font size="18.0" />
                            </font>
                         </Button>
-                        <Button layoutX="8.0" layoutY="653.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="239.0" style="-fx-background-color: red;" text="Sign Out" textFill="WHITE">
+                        <Button layoutX="11.0" layoutY="718.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="239.0" style="-fx-background-color: red;" text="Sign Out" textFill="WHITE">
                            <font>
                               <Font size="18.0" />
                            </font>
                         </Button>
-                        <Button layoutX="10.0" layoutY="105.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="239.0" style="visibility: true;" text="Unit Reports">
+                        <Button layoutX="10.0" layoutY="105.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="239.0" style="visibility: false;" text="Unit Reports">
                            <font>
                               <Font size="18.0" />
                            </font>
                         </Button>
-                        <Button layoutX="10.0" layoutY="185.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="239.0" style="visibility: true;" text="Final Evaluation">
+                        <Button layoutX="10.0" layoutY="185.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="239.0" style="visibility: false;" text="Final Evaluation">
                            <font>
                               <Font size="18.0" />
                            </font>
                         </Button>
-                        <Button layoutX="10.0" layoutY="259.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="239.0" style="visibility: true;" text="Instructor Assignment">
+                        <Button layoutX="10.0" layoutY="259.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="239.0" style="visibility: false;" text="Instructor Assignment">
                            <font>
                               <Font size="18.0" />
                            </font>
                         </Button>
-                        <Button layoutX="10.0" layoutY="330.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="239.0" style="visibility: true;" text="Cadet Rankings">
+                        <Button layoutX="10.0" layoutY="330.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="239.0" style="visibility: false;" text="Cadet Rankings">
                            <font>
                               <Font size="18.0" />
                            </font>
                         </Button>
-                        <Button layoutX="10.0" layoutY="405.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="239.0" style="visibility: true;" text="Announcement Approval">
+                        <Button layoutX="10.0" layoutY="405.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="239.0" style="visibility: false;" text="Announcement Approval">
                            <font>
                               <Font size="18.0" />
                            </font>
                         </Button>
-                        <Button layoutX="10.0" layoutY="475.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="239.0" style="visibility: true;" text="Mission Events">
+                        <Button layoutX="10.0" layoutY="475.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="239.0" style="visibility: false;" text="Mission Events">
                            <font>
                               <Font size="18.0" />
                            </font>
                         </Button>
-                        <Button layoutX="10.0" layoutY="544.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="239.0" style="visibility: true;" text="Instructor Performance">
+                        <Button layoutX="10.0" layoutY="544.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="239.0" style="visibility: false;" text="Instructor Performance">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Button>
+                      <AnchorPane layoutX="-426.0" layoutY="-236.0" minHeight="0.0" minWidth="0.0" prefHeight="547.0" prefWidth="920.0" />
+                        <Button layoutX="13.0" layoutY="34.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="239.0" style="visibility: true;" text="Dashboard">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Button>
+                        <Button layoutX="12.0" layoutY="115.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="239.0" style="visibility: true;" text="Leave Requests">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Button>
+                        <Button layoutX="12.0" layoutY="195.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="239.0" style="visibility: true;" text="Attendance Monitor">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Button>
+                        <Button layoutX="12.0" layoutY="269.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="239.0" style="visibility: true;" text="Submit Performance Report">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Button>
+                        <Button layoutX="12.0" layoutY="340.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="239.0" style="visibility: true;" text="Drill Scheduler">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Button>
+                        <Button layoutX="12.0" layoutY="415.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="239.0" style="visibility: true;" text="Cadet Health Reports">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Button>
+                        <Button layoutX="12.0" layoutY="485.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="239.0" style="visibility: true;" text="Mentor Assignment">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Button>
+                        <Button layoutX="12.0" layoutY="564.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="239.0" style="visibility: true;" text="Group Announcement">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Button>
+                        <Button layoutX="12.0" layoutY="643.0" mnemonicParsing="false" prefHeight="55.0" prefWidth="239.0" style="visibility: true;" text="Event Participation">
                            <font>
                               <Font size="18.0" />
                            </font>
@@ -143,10 +188,6 @@
             </AnchorPane>
          </children>
       </HBox>
-      <ScrollPane layoutX="273.0" layoutY="147.0" prefHeight="548.0" prefWidth="927.0">
-        <content>
-          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="547.0" prefWidth="920.0" />
-        </content>
-      </ScrollPane>
+      <ScrollPane layoutX="273.0" layoutY="147.0" prefHeight="548.0" prefWidth="927.0" />
    </children>
 </AnchorPane>
